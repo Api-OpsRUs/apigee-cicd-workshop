@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Enterprisetarget",
+        "host": "example.com",
+        "isEnabled": true,
+        "port": 8080
+    },
+    {
+        "name": "github_ts",
+        "host": "api.github.com",
+        "isEnabled": true,
+        "port": 443, 
+	"SSLInfo":{"enabled":"true"}
+    },
+
+    {
+        "name": "ESBTarget",
+        "host": "enterprise.com",
+        "isEnabled": true,
+        "port": 8080,
+        "sSLInfo": {
+            "clientAuthEnabled": "false",
+            "enabled": "true",
+            "ignoreValidationErrors": "false",
+            "keyAlias": "key_alias",
+            "keyStore": "keystore_name",
+            "trustStore": "truststore_name"
+        }
+    }
+]
