@@ -8,6 +8,12 @@
                 "host" : "httpbin.org",
                 "isEnabled" : true,
                 "port" : 80
+              }, 
+			  {
+                "name" : "github_ts",
+                "host" : "github.com",
+                "isEnabled" : true,
+                "port" : 80
               }
           ],
           "caches": [

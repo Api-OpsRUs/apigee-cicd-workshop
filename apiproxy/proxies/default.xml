@@ -27,8 +27,7 @@
     <HTTPProxyConnection>
         <BasePath>/github-ap</BasePath>
         <Properties/>
-        <VirtualHost>default</VirtualHost>
-        <VirtualHost>secure</VirtualHost>
+        <VirtualHost>gateway-api</VirtualHost>
     </HTTPProxyConnection>
     <RouteRule name="default">
         <TargetEndpoint>default</TargetEndpoint>

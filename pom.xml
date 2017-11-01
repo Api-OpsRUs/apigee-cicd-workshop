@@ -156,9 +156,20 @@
 				<apigee.org>sidgs</apigee.org>
 				<apigee.username>${username}</apigee.username>
 				<apigee.password>${password}</apigee.password>
+				
+				<!-- Needed for Edge Proxy Deployment Options ; Update = Upcert -->
 				<apigee.options>update</apigee.options>
-				<api.northbound.domain>${apigee.env}-api.sidgs.net:9002</api.northbound.domain>
 				<api.testtag>~@wip</api.testtag>
+				
+				<!-- Options for the config Pluging -->
+				<apigee.config.dir>resources/edge</apigee.config.dir>
+				<!-- 
+				Use sync = upcert for Cloud as CPS is enabled and wont allow updates 
+				use update for on-premise 
+				Options : 
+				none|create|update|delete|sync 
+				--> 
+				<apigee.config.options>update</apigee.config.options>
 			</properties>
 		</profile>
 		
