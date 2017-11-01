@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" mapIdentifier="github_app" continueOnError="false" enabled="true" name="Key-Value-Map-Operations-1">
+    <DisplayName>Key Value Map Operations-1</DisplayName>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <Get assignTo="spikeArrest" index="1">
+        <Key>
+            <Parameter>spikeArrest</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>
